@@ -74,4 +74,6 @@ const handleSubmit = async (e) => {
   chatContainer.scrollTop = chatContainer.scrollTop;
 
   const messageDiv = document.getElementById(uniqueId);
+
+  loader(messageDiv);
 }
